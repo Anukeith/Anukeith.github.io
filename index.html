@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Anukeith's portfolio showcasing web development projects, coding expertise, and design skills. Explore my work and get in touch for collaboration.">
+    <meta name="keywords" content="Anukeith,Thakur Anukeith singh,Thakur Anukeith,Anukeith singh, web developer, portfolio, front-end development, HTML, CSS, JavaScript, web design, projects">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Open Graph Tags -->
+  <meta property="og:title" content="Anukeith - Web Developer Portfolio">
+  <meta property="og:description" content="Explore Anukeith's web development projects, including front-end and back-end work. Contact for freelance projects.">
+  <meta property="og:image" content="https://www.yourportfolio.com/">
+  <meta property="og:url" content="https://www.yourportfolio.com">
+    <title>Anukeith</title>
+    <!-- ------------style-------------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- -----------------responsive styles------------- -->
+    <link rel="stylesheet" href="responsive.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="/images/logo.jpg" rel="icon">
+    
+</head>
+<body>
+    <header class="header" id="head">
+        <a href="#" class="logo">Portfolio.</a>
+    <!------------------------------------------ navbar ---------------------------------------------------------->
+        <nav class="navbar" id="sidemenu">
+            <a href="#head" onclick="closeabout()" ><i class="fa-solid fa-house-chimney" id="icon-1"></i>Home</a>
+            <a href="#about" onclick="closeabout()"><i class="fa-solid fa-user" id="icon-1"></i>About</a>
+            <a href="#services" onclick="closeabout()"><i class="fa-solid fa-briefcase"id="icon-1"></i>Services</a>
+            <a href="#portfolio" onclick="closeabout()"><i class="fa-solid fa-address-card"id="icon-1"></i>Portfolio</a>
+            <a href="#contact" onclick="closeabout()"><i class="fa-solid fa-envelope"id="icon-1"></i>Contact</a>
+
+            <i class="fa-regular fa-circle-xmark " id="close" onclick="closemenu()"></i>
+        
+        </nav>
+        <i class="fa-solid fa-bars " id="open" onclick="openmenu()"></i>
+        
+    <!-------------------------------------------- navbar ------------------------------>
+    </header>
+
+
+    <section class="home">
+        <!-------------------------------------- home -------------------------------------------->
+        <div class="home-content">
+            <h1>Anukeith singh  Thakur</h1>
+            <h3> I'm a <span class="text"></span></h3> <br><br>
+            <p>I'm a web Designer and i will design websites <br>I create clean, responsive, and visually engaging websites using HTML, CSS, and JavaScript.</p>
+        
+            <div class="home-social">
+                <a href="/images/Anukeith Web.pdf" download class="d"> Download CV</a>
+                <a href="https://www.facebook.com/" ><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://www.instagram.com/accounts/login/?hl=en" ><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://github.com/Anukeith" ><i class='bx bxl-github'></i></i></a>
+                <a href="https://www.linkedin.com/in/anukeith-singh-thakur-32629123a/" ><i class='bx bxl-linkedin' ></i></a>
+            </div>
+        </div>
+        
+        <!----------------------------------------- home --------------------------------------->
+        
+        <!-- ---------------------------------upscroll --------------------------------- -->
+        <div class="up">
+            <a href="#head"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+        <!-- !-- ---------------------------------upscroll --------------------------------- --> 
+
+        <!--------------------------------------- home image ------------------------------->
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="/images/home-image.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!----------------------------------------- home image ------------------------------------->
+
+
+
+    <!-- --------------------------------------about----------------------------------------------------- -->
+    <div id="about">
+        <div class="container ">
+            <div class="row">
+                <div class="about-col-1 block block-4">
+                    <img src="/images/img.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title block">About Me</h1>
+                    <br>
+                    <p class="about-p block">I'm &nbsp;&nbsp;Anukeith singh, an undergraduate student in the Department of <b>Computer Science & Engineering (CSE)</b> from SREC, Warangal, Telangana.  <br>I'm a committed, Software Programmer from India. During my academic journey, I gained hands-on experience working with various technologies, programming languages, and tools. I'm eager to apply my skills to real-world challenges and contribute to impactful projects.I'm always excited about the future of technology and the incredible things we can create.</p>
+                    
+                    <div class="tab-titles block">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('projects')"></p>
+                    </div>
+                    <!-- ----------------------skills-------------------------- -->
+                            <div class="tab-contents active-tab" id="skills">
+                                        <ul class="phone-skills">
+                                            <li><span id="sk-1">Web Development :</span> HTML, CSS, JavaScript, Bootstrap</li>
+                                            <li><span id="sk-1">Languages :</span> Java, Python, c, MYSQL,</li>
+                                            <li><span id="sk-1">Tools :</span> VS Code, Jupiter Notebook, Eclipse </li>
+                                        </ul>
+
+                                <div class="skills-container">
+                                    <div class="skills">
+                                       <br><br><br>
+                                    <div>
+                                        <h4>HTML / CSS</h4>
+                                        <div class="progress-bar">
+                                            <div class="html"><span>85%</span></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4>JavaScript</h4>
+                                        <div class="progress-bar">
+                                            <div class="javascript"><span>90%</span></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4>Java</h4>
+                                        <div class="progress-bar">
+                                            <div class="java"><span>95%</span></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4>Python</h4>
+                                        <div class="progress-bar">
+                                            <div class="python"><span>90%</span></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4>c</h4>
+                                        <div class="progress-bar">
+                                            <div class="c"><span>80%</span></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4>Sql</h4>
+                                        <div class="progress-bar">
+                                            <div class="python"><span>90%</span></div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                    <!-- ------------------------------skills------------------------- -->
+
+                    <!-- ------------------------------education-------------------------- -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>JAVA Fullstack Training </span><br>2024-Present <br> Packetprep Institue</li>
+                            <li><span>Bachelor of Technology in Computer Science Engineering</span><br>2019 - 2023<br>SR Engineering College</li>
+                            <!-- <li><span>2019</span><br>Narayana Jr College</li>
+                            <li><span>ui</span><br>design websites</li> -->
+                        </ul>
+                    </div>
+                    <!-- ------------------------------education-------------------------- -->
+
+                    <div class="tab-contents" id="certificate">
+                        <!-- <ul>
+                            
+                            <li><span>2023</span><br>bike</li>
+                            <li><span>2019</span><br>Narayana Jr College</li>
+                            <li><span>ui</span><br>design websites</li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------about-------------- -->
+     <!-- -------------------services--------------- -->
+      <div id="services">
+        <div class="container block  ">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div class="block-4">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I craft visually stunning and user-friendly websites tailored to your brand's identity. From wireframes to final designs, I ensure a seamless experience across all devices.</p>
+                    <a href="#contact">Learn more</a>
+                </div>
+                
+                <div class="block-4">
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Web Developer</h2>
+                    <p>I build fast, secure, and scalable websites using modern web technologies. Whether it's a business site, portfolio, or complex web application, I ensure clean, efficient code.</p>
+                    <a href="#contact">Learn more</a>
+                </div>
+                <div class="block-4">
+                    <i class="fa-solid fa-arrow-up"></i>
+                    <h2>Java Developer</h2>
+                    <p>I build scalable, secure, and high-performance Java applications tailored to your business needs, whether it's a web app, enterprise system, or backend service.</p>
+                    <a href="#contact">Learn more</a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!------------------------portfolio----------------- -->
+      <div id="portfolio">
+        <div class="container block">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work block-2">
+                    <img src="/images/img-1.jpeg" alt="">
+                    <div class="layer">
+                        <h3>TIC TAC TOE </h3>
+                        <p>Tic Tac Toe game done with Html,CSS,js</p>
+                        <a href="https://anukeith.github.io/Tic-Tac-toe/" target="_blank" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work block-2">
+                    <img src="/images/img-2.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Bike Sales Prediction</h3>
+                        <p>To find the sales of the company more accurately based on the investment</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work block-2">
+                    <img src="/images/img-5.png" alt="">
+                    <div class="layer">
+                        <h3>School Admision</h3>
+                        <p>This is an website used to get admission in  College</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               
+                <div class="work block-2">
+                    <img src="/images/img-3.png" alt="">
+                    <div class="layer">
+                        <h3>Python</h3>
+                        <p>Certificate in Python from udemy</p>
+                        <a href="/images/img-3.png" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work block-2">
+                    <img src="/images/img-4.png" alt="">
+                    <div class="layer">
+                        <h3>Web Development </h3>
+                        <p>Certificate in Web Development form ude</p>
+                        <a href="/images/img-4.png" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="" class="btn">See more</a> -->
+        </div>
+      </div>
+    <!------------------------portfolio----------------- -->
+
+  <!-- ---------------------contact------------------- -->
+     <div id="contact">
+        <div class="container block">
+            <div class="row block-3">
+                <div class="contact-left ">
+                    <h1 class="sub-title block-3">Contact Me</h1>
+                    <p class="block-3"><i class="fa-solid fa-paper-plane"></i>t.anukeith@gmail.com</p>
+                    <p class="block-3"><i class="fa-solid fa-phone"></i>+91 967XXXX242</p>
+                    <div class="social-icons block-3">
+                        <a href="https://www.facebook.com/" ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/?hl=en" ><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Anukeith" ><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/anukeith-singh-thakur-32629123a/" ><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right block-3" >
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="11de7bc5-6907-491d-96bf-a84e7de09f59">
+                        <input type="text" name="Name" placeholder="Your Name" required class=" block-3">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+       
+     </div>
+     <div class="copyright">
+        <p>© Copyright Thakur Anukeith. All Rights Reserved.
+            <br>Designed with <i class="fa-solid fa-heart"></i></p>
+    </div>
+     <!-- ---------------------contact------------------- -->
+
+
+      <!-- --------------------------------jslinks------------------------------------------------ -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/70a92a6835.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+      <!-- --------------------------------jslinks------------------------------------------------ -->
+</body>
+</html>
